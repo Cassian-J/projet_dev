@@ -1,0 +1,15 @@
+.dll -> 3 -> pouvoir / -> perso / -> score / -> option / -> map
+un symbole de couleur différentes pour différecier les joueurs
+clavier pour prendre les pseudos
+chaque pouvoir a soit une durée soit un nombre d'utilistion
+si de dessus :
+        haut
+          ^
+          |             O -> atk  O -> atk secondaire
+gauche <- o -> droite 
+          |             O -> utilisation du pouvoir/objet O -> recup de box
+          v
+        bas
+type d'item : soin / atk / def / speed / range
+
+tir vers la ou le joueur regarde
