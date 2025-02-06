@@ -8,6 +8,7 @@
 - fire rate (fr)
 
 ## class
+#### normal stats
 ### tank
 - +++hp
 - --spd
