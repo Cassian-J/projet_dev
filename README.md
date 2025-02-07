@@ -127,7 +127,17 @@
 | spd             |   stats   |
 | rspd            | Valeur B  |
 |  fr             | Valeur Y  |
-
+## summarize stats
+| class       | hp | atk | spd | rspd | fr |
+|-------------|----|-----|-----|------|----|
+|normal       |    |     |     |      |    |
+|tank         |    |     |     |      |    |
+|speed dps    |    |     |     |      |    |
+|damage dps   |    |     |     |      |    |
+|fire rate dps|    |     |     |      |    |
+|healer       |    |     |     |      |    |
+|debuffer     |    |     |     |      |    |
+|buffer       |    |     |     |      |    |
 # class
 ## tank
 ## speed dps
