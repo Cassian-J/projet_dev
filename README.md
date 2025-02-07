@@ -3,26 +3,26 @@
 2. [stats](#stats)
 3. [class_stats](#class_stats)
     - [tank](#tank)
-    - [speed dps](#speed dps)
-    - [damage dps](#damage dps)
-    - [fire rate dps](#fire rate dps)
+    - [speed_dps](#speed dps)
+    - [damage_dps](#damage dps)
+    - [fire_rate_dps](#fire rate dps)
     - [healer](#healer)
     - [debuffer/buffer](#debuffer/buffer)
 4. [class](#class)
     - [tank](#tank)
-    - [speed_dps](#speed_dps)
-    - [damage_dps](#damage_dps)
-    - [fire_rate_dps](#fire_rate_dps)
+    - [speed_dps](#speed dps)
+    - [damage_dps](#damage dps)
+    - [fire_rate_dps](#fire rate dps)
     - [healer](#healer)
     - [debuffer/buffer](#debuffer/buffer)
 5. [items](#items)
     - [defense](#defense)
     - [speed](#speed)
     - [attack](#attack)
-    - [fire_rate](#fire_rate)
+    - [fire_rate](#fire rate)
     - [heal](#heal)
     - [buff](#buff)
-6. [how_to_play](#how_to_play)
+6. [how_to_play](#how to play)
 # presentation
 # stats
 - health point (hp)
@@ -37,7 +37,7 @@
 - +++hp
 - --spd
 - --fr
-## speed_dps
+## speed dps
 - --hp
 - +++spd
 - +atk
@@ -46,7 +46,7 @@
 - ++atk
 - -fr
 ### damage dps stats
-## fire_rate_dps
+## fire rate dps
 - ++fr 
 - -atk
 ### fire rate dps stats
@@ -62,9 +62,9 @@
 
 # class
 ## tank
-## speed_dps
-## damage_dps
-## fire_rate_dps
+## speed dps
+## damage dps
+## fire rate dps
 ## healer
 ## debuffer/buffer
 
@@ -72,7 +72,7 @@
 ## defense
 ## speed
 ## attack
-## fire_rate
+## fire rate
 ## heal
 ## buff
-# how_to_play
+# how to play
