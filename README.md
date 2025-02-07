@@ -45,9 +45,9 @@
 #### change of stats between tank and normal character
 | name |   change  |
 |------|-----------|
-|  hp  | +++  |
-| spd  |   --   |
-|  fr  | --  |
+|  hp  | +++       |
+| spd  |   --      |
+|  fr  | --        |
 #### tank stats
 | name |   stats   |
 |------|-----------|
@@ -58,11 +58,11 @@
 |  fr  | Valeur Y  |
 ## speed dps stats
 #### change of stats between speed dps and normal character
-| name |   change   |
+| name |   change  |
 |------|-----------|
-|  hp  | --  |
-| atk  | +  |
-| spd  |   +++   |
+|  hp  | --        |
+| atk  | +         |
+| spd  |   +++     |
 #### speed dps stats
 | name |   stats   |
 |------|-----------|
@@ -73,10 +73,10 @@
 |  fr  | Valeur Y  |
 ## damage dps stats
 #### change of stats between damage dps and normal character
-| name |   change   |
+| name |   change  |
 |------|-----------|
-| atk  | ++  |
-|  fr  | -  |
+| atk  | ++        |
+|  fr  | -         |
 #### damage dps stats
 | name |   stats   |
 |------|-----------|
@@ -88,9 +88,9 @@
 ## fire rate dps stats
 #### change of stats between fire rate dps and normal character
 | name |   change   |
-|------|-----------|
-| atk  | -  |
-|  fr  | ++  |
+|------|------------|
+| atk  | -          |
+|  fr  | ++         |
 #### fire rate dps stats
 | name |   stats   |
 |------|-----------|
@@ -101,10 +101,10 @@
 |  fr  | Valeur Y  |
 ## healer stats
 #### change of stats between healer and normal character
-| name |   change   |
-|------|-----------|
-|  hp  | +  |
-| spd  |   -   |
+| name | change |
+|------|--------|
+|  hp  |  +     |
+| spd  |  -     |
 #### healer stats
 | name |   stats   |
 |------|-----------|
@@ -115,10 +115,10 @@
 |  fr  | Valeur Y  |
 ## debuffer/buffer stats
 #### change of stats between debuffer/buffer and normal character
-| name |   change   |
+| name |   change  |
 |------|-----------|
-| atk  | -  |
-| spd  |   +   |
+| atk  | -         |
+| spd  |   +       |
 #### debuffer/buffer stats
 | name |   stats   |
 |------|-----------|
