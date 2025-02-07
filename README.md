@@ -88,6 +88,7 @@
 ### Commandes du Joystick et des Boutons
 #### 🎮 Mouvement
 Joystick multi-directionnel
+```
           Haut
            ↑  
            │  
@@ -95,9 +96,11 @@ Gauche ←-- ○ --→ Droite
            │
            ↓ 
           Bas
-
-#### 🔘 Actions  
-- **●** Attaque principale  
-- **○** Attaque secondaire  
-- **△** Utilisation du pouvoir/objet  
-- **▢** Récupération de box 
+```
+#### 🔘 Actions
+```
+● Attaque principale  
+○ Attaque secondaire  
+△ Utilisation du pouvoir/objet  
+▢ Récupération de box 
+```
