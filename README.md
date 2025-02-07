@@ -1,28 +1,28 @@
 # Table of Contents
 1. [presentation](#presentation)
 2. [stats](#stats)
-3. [class_stats](#class_stats)
-    - [tank](#tank_stats)
-    - [speed_dps](#speed_dps_stats)
-    - [damage_dps](#damage_dps_stats)
-    - [fire_rate_dps](#fire_rate_dps_stats)
-    - [healer](#healer_stats)
-    - [debuffer/buffer](#debuffer/buffer_stats)
+3. [class-stats](#class-stats)
+    - [tank](#tank-stats)
+    - [speed-dps](#speed-dps-stats)
+    - [damage-dps](#damage-dps-stats)
+    - [fire-rate-dps](#fire-rate-dps-stats)
+    - [healer](#healer-stats)
+    - [debuffer/buffer](#debuffer/buffer-stats)
 4. [class](#class)
     - [tank](#tank)
-    - [speed_dps](#speed_dps)
-    - [damage_dps](#damage_dps)
-    - [fire_rate_dps](#fire_rate_dps)
+    - [speed-dps](#speed-dps)
+    - [damage-dps](#damage-dps)
+    - [fire-rate-dps](#fire-rate-dps)
     - [healer](#healer)
     - [debuffer/buffer](#debuffer/buffer)
 5. [items](#items)
     - [defense](#defense)
     - [speed](#speed)
     - [attack](#attack)
-    - [fire_rate](#fire_rate)
+    - [fire-rate](#fire-rate)
     - [heal](#heal)
     - [buff](#buff)
-6. [how_to_play](#how_to_play)
+6. [how-to-play](#how-to-play)
 # presentation
 # stats
 - health point (hp)
@@ -31,35 +31,35 @@
 - rotated speed (rspd)
 - fire rate (fr)
 
-# class_stats
+# class stats
 ### normal stats
-## tank_stats
+## tank stats
 - +++hp
 - --spd
 - --fr
-## speed_dps_stats
+## speed dps stats
 - --hp
 - +++spd
 - +atk
-## damage_dps_stats
+## damage dps stats
 - ++atk
 - -fr
-## fire_rate_dps_stats
+## fire rate dps stats
 - ++fr 
 - -atk
-## healer_stats
+## healer stats
 - -spd 
 - -def 
 - +hp
-## debuffer/buffer_stats
+## debuffer/buffer stats
 - +spd
 - -atk
 
 # class
 ## tank
-## speed_dps
-## damage_dps
-## fire_rate_dps
+## speed dps
+## damage dps
+## fire rate dps
 ## healer
 ## debuffer/buffer
 
@@ -67,7 +67,7 @@
 ## defense
 ## speed
 ## attack
-## fire_rate
+## fire rate
 ## heal
 ## buff
-# how_to_play
+# how to play
