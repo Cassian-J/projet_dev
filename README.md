@@ -34,39 +34,99 @@
 
 # class stats
 #### normal stats
+| name |   stats   |
+|------|-----------|
+|  hp  | Valeur B  |
+| atk  | Valeur Y  |
+| spd  |   stats   |
+| rspd | Valeur B  |
+|  fr  | Valeur Y  |
 ## tank stats
 #### change of stats between tank and normal character
-- +++hp
-- --spd
-- --fr
+| name |   change  |
+|------|-----------|
+|  hp  | +++  |
+| spd  |   --   |
+|  fr  | --  |
 #### tank stats
+| name |   stats   |
+|------|-----------|
+|  hp  | Valeur B  |
+| atk  | Valeur Y  |
+| spd  |   stats   |
+| rspd | Valeur B  |
+|  fr  | Valeur Y  |
 ## speed dps stats
 #### change of stats between speed dps and normal character
-- --hp
-- +++spd
-- +atk
+| name |   change   |
+|------|-----------|
+|  hp  | --  |
+| atk  | +  |
+| spd  |   +++   |
 #### speed dps stats
+| name |   stats   |
+|------|-----------|
+|  hp  | Valeur B  |
+| atk  | Valeur Y  |
+| spd  |   stats   |
+| rspd | Valeur B  |
+|  fr  | Valeur Y  |
 ## damage dps stats
 #### change of stats between damage dps and normal character
-- ++atk
-- -fr
+| name |   change   |
+|------|-----------|
+| atk  | ++  |
+|  fr  | -  |
 #### damage dps stats
+| name |   stats   |
+|------|-----------|
+|  hp  | Valeur B  |
+| atk  | Valeur Y  |
+| spd  |   stats   |
+| rspd | Valeur B  |
+|  fr  | Valeur Y  |
 ## fire rate dps stats
 #### change of stats between fire rate dps and normal character
-- ++fr 
-- -atk
+| name |   change   |
+|------|-----------|
+| atk  | -  |
+|  fr  | ++  |
 #### fire rate dps stats
+| name |   stats   |
+|------|-----------|
+|  hp  | Valeur B  |
+| atk  | Valeur Y  |
+| spd  |   stats   |
+| rspd | Valeur B  |
+|  fr  | Valeur Y  |
 ## healer stats
 #### change of stats between healer and normal character
-- -spd 
-- -def 
-- +hp
+| name |   change   |
+|------|-----------|
+|  hp  | +  |
+| spd  |   -   |
 #### healer stats
+| name |   stats   |
+|------|-----------|
+|  hp  | Valeur B  |
+| atk  | Valeur Y  |
+| spd  |   stats   |
+| rspd | Valeur B  |
+|  fr  | Valeur Y  |
 ## debuffer/buffer stats
 #### change of stats between debuffer/buffer and normal character
-- +spd
-- -atk
+| name |   change   |
+|------|-----------|
+| atk  | -  |
+| spd  |   +   |
 #### debuffer/buffer stats
+| name |   stats   |
+|------|-----------|
+|  hp  | Valeur B  |
+| atk  | Valeur Y  |
+| spd  |   stats   |
+| rspd | Valeur B  |
+|  fr  | Valeur Y  |
 
 # class
 ## tank
