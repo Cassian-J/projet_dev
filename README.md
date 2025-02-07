@@ -1,28 +1,21 @@
 # Table of Contents
 1. [presentation](#presentation)
 2. [stats](#stats)
-3. [stats](#class-stats)
-    - [tank](#tank-stats)
-    - [speed dps](#speed-dps-stats)
-    - [damage dps](#damage-dps-stats)
-    - [fire rate dps](#fire-rate-dps-stats)
-    - [healer](#healer-stats)
-    - [debuffer/buffer](#debuffer/buffer-stats)
-4. [class](#class)
+3. [class](#class)
     - [tank](#tank)
     - [speed dps](#speed-dps)
     - [damage dps](#damage-dps)
     - [fire rate dps](#fire-rate-dps)
     - [healer](#healer)
     - [debuffer/buffer](#debuffer/buffer)
-5. [items](#items)
+4. [items](#items)
     - [defense](#defense)
     - [speed](#speed)
     - [attack](#attack)
     - [fire rate](#fire-rate)
     - [heal](#heal)
     - [buff](#buff)
-6. [how to play](#how-to-play)
+5. [how to play](#how-to-play)
 
 # presentation
 # stats
@@ -32,7 +25,7 @@
 - rotated speed (rspd)
 - fire rate (fr)
 
-# class stats
+# class
 #### normal stats
 | normal |   stats   |
 |--------|-----------|
@@ -41,7 +34,7 @@
 | spd    |           |
 | rspd   |           |
 |  fr    |           |
-## tank stats
+## tank
 #### change of stats between tank and normal character
 | stats |   change  |
 |-------|-----------|
@@ -56,7 +49,7 @@
 | spd  |           |
 | rspd |           |
 |  fr  |           |
-## speed dps stats
+## speed dps
 #### change of stats between speed dps and normal character
 | stats |   change  |
 |-------|-----------|
@@ -71,7 +64,7 @@
 | spd       |           |
 | rspd      |           |
 |  fr       |           |
-## damage dps stats
+## damage dps
 #### change of stats between damage dps and normal character
 | stats |   change  |
 |-------|-----------|
@@ -85,7 +78,7 @@
 | spd        |           |
 | rspd       |           |
 |  fr        |           |
-## fire rate dps stats
+## fire rate dps
 #### change of stats between fire rate dps and normal character
 | stats |   change   |
 |-------|------------|
@@ -99,7 +92,7 @@
 | spd           |           |
 | rspd          |           |
 |  fr           |           |
-## healer stats
+## healer
 #### change of stats between healer and normal character
 | stats | change |
 |-------|--------|
@@ -113,7 +106,7 @@
 | spd    |           |
 | rspd   |           |
 |  fr    |           |
-## debuffer/buffer stats
+## debuffer/buffer
 #### change of stats between debuffer/buffer and normal character
 | stats |   change  |
 |-------|-----------|
@@ -138,13 +131,6 @@
 |healer       |    |     |     |      |    |
 |debuffer     |    |     |     |      |    |
 |buffer       |    |     |     |      |    |
-# class
-## tank
-## speed dps
-## damage dps
-## fire rate dps
-## healer
-## debuffer/buffer
 
 # items
 ## defense
