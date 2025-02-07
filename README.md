@@ -2,12 +2,12 @@
 1. [presentation](#presentation)
 2. [stats](#stats)
 3. [class_stats](#class_stats)
-    - [tank](#tank)
-    - [speed_dps](#speed_dps)
-    - [damage_dps](#damage_dps)
-    - [fire_rate_dps](#fire_rate_dps)
-    - [healer](#healer)
-    - [debuffer/buffer](#debuffer/buffer)
+    - [tank](#tank_stats)
+    - [speed_dps](#speed_dps_stats)
+    - [damage_dps](#damage_dps_stats)
+    - [fire_rate_dps](#fire_rate_dps_stats)
+    - [healer](#healer_stats)
+    - [debuffer/buffer](#debuffer/buffer_stats)
 4. [class](#class)
     - [tank](#tank)
     - [speed_dps](#speed_dps)
@@ -31,34 +31,29 @@
 - rotated speed (rspd)
 - fire rate (fr)
 
-# class stats
+# class_stats
 ### normal stats
-## tank stats
+## tank_stats
 - +++hp
 - --spd
 - --fr
-## speed_dps
+## speed_dps_stats
 - --hp
 - +++spd
 - +atk
-### speed dps stats
-## damage_dps
+## damage_dps_stats
 - ++atk
 - -fr
-### damage dps stats
-## fire_rate_dps
+## fire_rate_dps_stats
 - ++fr 
 - -atk
-### fire rate dps stats
-## healer
+## healer_stats
 - -spd 
 - -def 
 - +hp
-### healer stats
-## debuffer/buffer 
+## debuffer/buffer_stats
 - +spd
 - -atk
-### debuffer/buffer stats
 
 # class
 ## tank
