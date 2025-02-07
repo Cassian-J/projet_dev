@@ -34,22 +34,22 @@
 
 # class stats
 #### normal stats
-| name |   stats   |
-|------|-----------|
-|  hp  | Valeur B  |
-| atk  | Valeur Y  |
-| spd  |   stats   |
-| rspd | Valeur B  |
-|  fr  | Valeur Y  |
+| normal |   stats   |
+|--------|-----------|
+|  hp    | Valeur B  |
+| atk    | Valeur Y  |
+| spd    |   stats   |
+| rspd   | Valeur B  |
+|  fr    | Valeur Y  |
 ## tank stats
 #### change of stats between tank and normal character
-| name |   change  |
-|------|-----------|
-|  hp  | +++       |
-| spd  |   --      |
-|  fr  | --        |
+| stats |   change  |
+|-------|-----------|
+|  hp   | +++       |
+| spd   |   --      |
+|  fr   | --        |
 #### tank stats
-| name |   stats   |
+| tank |   stats   |
 |------|-----------|
 |  hp  | Valeur B  |
 | atk  | Valeur Y  |
@@ -58,75 +58,75 @@
 |  fr  | Valeur Y  |
 ## speed dps stats
 #### change of stats between speed dps and normal character
-| name |   change  |
-|------|-----------|
-|  hp  | --        |
-| atk  | +         |
-| spd  |   +++     |
+| stats |   change  |
+|-------|-----------|
+|  hp   | --        |
+| atk   | +         |
+| spd   |   +++     |
 #### speed dps stats
-| name |   stats   |
-|------|-----------|
-|  hp  | Valeur B  |
-| atk  | Valeur Y  |
-| spd  |   stats   |
-| rspd | Valeur B  |
-|  fr  | Valeur Y  |
+| speed dps |   stats   |
+|-----------|-----------|
+|  hp       | Valeur B  |
+| atk       | Valeur Y  |
+| spd       |   stats   |
+| rspd      | Valeur B  |
+|  fr       | Valeur Y  |
 ## damage dps stats
 #### change of stats between damage dps and normal character
-| name |   change  |
-|------|-----------|
-| atk  | ++        |
-|  fr  | -         |
+| stats |   change  |
+|-------|-----------|
+| atk   | ++        |
+|  fr   | -         |
 #### damage dps stats
-| name |   stats   |
-|------|-----------|
-|  hp  | Valeur B  |
-| atk  | Valeur Y  |
-| spd  |   stats   |
-| rspd | Valeur B  |
-|  fr  | Valeur Y  |
+| damage dps |   stats   |
+|------------|-----------|
+|  hp        | Valeur B  |
+| atk        | Valeur Y  |
+| spd        |   stats   |
+| rspd       | Valeur B  |
+|  fr        | Valeur Y  |
 ## fire rate dps stats
 #### change of stats between fire rate dps and normal character
-| name |   change   |
-|------|------------|
-| atk  | -          |
-|  fr  | ++         |
+| stats |   change   |
+|-------|------------|
+| atk   | -          |
+|  fr   | ++         |
 #### fire rate dps stats
-| name |   stats   |
-|------|-----------|
-|  hp  | Valeur B  |
-| atk  | Valeur Y  |
-| spd  |   stats   |
-| rspd | Valeur B  |
-|  fr  | Valeur Y  |
+| fire rate dps |   stats   |
+|---------------|-----------|
+|  hp           | Valeur B  |
+| atk           | Valeur Y  |
+| spd           |   stats   |
+| rspd          | Valeur B  |
+|  fr           | Valeur Y  |
 ## healer stats
 #### change of stats between healer and normal character
-| name | change |
-|------|--------|
-|  hp  |  +     |
-| spd  |  -     |
+| stats | change |
+|-------|--------|
+|  hp   |  +     |
+| spd   |  -     |
 #### healer stats
-| name |   stats   |
-|------|-----------|
-|  hp  | Valeur B  |
-| atk  | Valeur Y  |
-| spd  |   stats   |
-| rspd | Valeur B  |
-|  fr  | Valeur Y  |
+| healer |   stats   |
+|--------|-----------|
+|  hp    | Valeur B  |
+| atk    | Valeur Y  |
+| spd    |   stats   |
+| rspd   | Valeur B  |
+|  fr    | Valeur Y  |
 ## debuffer/buffer stats
 #### change of stats between debuffer/buffer and normal character
-| name |   change  |
-|------|-----------|
-| atk  | -         |
-| spd  |   +       |
+| stats |   change  |
+|-------|-----------|
+| atk   | -         |
+| spd   |   +       |
 #### debuffer/buffer stats
-| name |   stats   |
-|------|-----------|
-|  hp  | Valeur B  |
-| atk  | Valeur Y  |
-| spd  |   stats   |
-| rspd | Valeur B  |
-|  fr  | Valeur Y  |
+| debuffer/buffer |   stats   |
+|-----------------|-----------|
+|  hp             | Valeur B  |
+| atk             | Valeur Y  |
+| spd             |   stats   |
+| rspd            | Valeur B  |
+|  fr             | Valeur Y  |
 
 # class
 ## tank
