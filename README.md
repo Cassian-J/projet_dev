@@ -36,11 +36,11 @@
 #### normal stats
 | normal |   stats   |
 |--------|-----------|
-|  hp    | Valeur B  |
-| atk    | Valeur Y  |
-| spd    |   stats   |
-| rspd   | Valeur B  |
-|  fr    | Valeur Y  |
+|  hp    |           |
+| atk    |           |
+| spd    |           |
+| rspd   |           |
+|  fr    |           |
 ## tank stats
 #### change of stats between tank and normal character
 | stats |   change  |
@@ -51,11 +51,11 @@
 #### tank stats
 | tank |   stats   |
 |------|-----------|
-|  hp  | Valeur B  |
-| atk  | Valeur Y  |
-| spd  |   stats   |
-| rspd | Valeur B  |
-|  fr  | Valeur Y  |
+|  hp  |           |
+| atk  |           |
+| spd  |           |
+| rspd |           |
+|  fr  |           |
 ## speed dps stats
 #### change of stats between speed dps and normal character
 | stats |   change  |
@@ -66,11 +66,11 @@
 #### speed dps stats
 | speed dps |   stats   |
 |-----------|-----------|
-|  hp       | Valeur B  |
-| atk       | Valeur Y  |
-| spd       |   stats   |
-| rspd      | Valeur B  |
-|  fr       | Valeur Y  |
+|  hp       |           |
+| atk       |           |
+| spd       |           |
+| rspd      |           |
+|  fr       |           |
 ## damage dps stats
 #### change of stats between damage dps and normal character
 | stats |   change  |
@@ -80,11 +80,11 @@
 #### damage dps stats
 | damage dps |   stats   |
 |------------|-----------|
-|  hp        | Valeur B  |
-| atk        | Valeur Y  |
-| spd        |   stats   |
-| rspd       | Valeur B  |
-|  fr        | Valeur Y  |
+|  hp        |           |
+| atk        |           |
+| spd        |           |
+| rspd       |           |
+|  fr        |           |
 ## fire rate dps stats
 #### change of stats between fire rate dps and normal character
 | stats |   change   |
@@ -94,11 +94,11 @@
 #### fire rate dps stats
 | fire rate dps |   stats   |
 |---------------|-----------|
-|  hp           | Valeur B  |
-| atk           | Valeur Y  |
-| spd           |   stats   |
-| rspd          | Valeur B  |
-|  fr           | Valeur Y  |
+|  hp           |           |
+| atk           |           |
+| spd           |           |
+| rspd          |           |
+|  fr           |           |
 ## healer stats
 #### change of stats between healer and normal character
 | stats | change |
@@ -108,11 +108,11 @@
 #### healer stats
 | healer |   stats   |
 |--------|-----------|
-|  hp    | Valeur B  |
-| atk    | Valeur Y  |
-| spd    |   stats   |
-| rspd   | Valeur B  |
-|  fr    | Valeur Y  |
+|  hp    |           |
+| atk    |           |
+| spd    |           |
+| rspd   |           |
+|  fr    |           |
 ## debuffer/buffer stats
 #### change of stats between debuffer/buffer and normal character
 | stats |   change  |
@@ -122,11 +122,11 @@
 #### debuffer/buffer stats
 | debuffer/buffer |   stats   |
 |-----------------|-----------|
-|  hp             | Valeur B  |
-| atk             | Valeur Y  |
-| spd             |   stats   |
-| rspd            | Valeur B  |
-|  fr             | Valeur Y  |
+|  hp             |           |
+| atk             |           |
+| spd             |           |
+| rspd            |           |
+|  fr             |           |
 ## summarize stats
 | class       | hp | atk | spd | rspd | fr |
 |-------------|----|-----|-----|------|----|
