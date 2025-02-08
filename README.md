@@ -27,7 +27,7 @@
 - projectile speed (pspd)
 
 # class
-#### normal stats
+**normal stats**
 | normal |   stats   |
 |--------|-----------|
 |  hp    |    100    |
@@ -36,13 +36,13 @@
 | rspd   |    100    |
 |  fr    |      1    |
 ## tank
-#### change of stats between tank and normal character
+**change of stats between tank and normal character**
 | stats |   change  |
 |-------|-----------|
 |  hp   | +++       |
 | spd   | --        |
 |  fr   | --        |
-#### tank stats
+**tank stats**
 | tank |   stats   |
 |------|-----------|
 |  hp  |    130    |
@@ -51,13 +51,13 @@
 | rspd |    100    |
 |  fr  |    0.6    |
 ## speed dps
-#### change of stats between speed dps and normal character
+**change of stats between speed dps and normal character**
 | stats |   change  |
 |-------|-----------|
 |  hp   | --        |
 | atk   | +         |
 | spd   | +++       |
-#### speed dps stats
+**speed dps stats**
 | speed dps |   stats   |
 |-----------|-----------|
 |  hp       |     80    |
@@ -66,12 +66,12 @@
 | rspd      |    100    |
 |  fr       |      1    |
 ## damage dps
-#### change of stats between damage dps and normal character
+**change of stats between damage dps and normal character**
 | stats |   change  |
 |-------|-----------|
 | atk   | ++        |
 |  fr   | -         |
-#### damage dps stats
+**damage dps stats**
 | damage dps |   stats   |
 |------------|-----------|
 |  hp        |    100    |
@@ -80,12 +80,12 @@
 | rspd       |    100    |
 |  fr        |    0.8    |
 ## fire rate dps
-#### change of stats between fire rate dps and normal character
+**change of stats between fire rate dps and normal character**
 | stats |   change   |
 |-------|------------|
 | atk   | -          |
 |  fr   | ++         |
-#### fire rate dps stats
+**fire rate dps stats**
 | fire rate dps |   stats   |
 |---------------|-----------|
 |  hp           |    100    |
@@ -94,12 +94,12 @@
 | rspd          |    100    |
 |  fr           |    1.4    |
 ## healer
-#### change of stats between healer and normal character
+**change of stats between healer and normal character**
 | stats | change |
 |-------|--------|
 |  hp   |  +     |
 | spd   |  -     |
-#### healer stats
+**healer stats**
 | healer |   stats   |
 |--------|-----------|
 |  hp    |    110    |
@@ -108,12 +108,12 @@
 | rspd   |    100    |
 |  fr    |      1    |
 ## debuffer/buffer
-#### change of stats between debuffer/buffer and normal character
+**change of stats between debuffer/buffer and normal character**
 | stats |   change  |
 |-------|-----------|
 | atk   | -         |
 | spd   | +         |
-#### debuffer/buffer stats
+**debuffer/buffer stats**
 | debuffer/buffer |   stats   |
 |-----------------|-----------|
 |  hp             |    100    |
@@ -143,7 +143,7 @@
 
 # how to play
 ### Joystick and Button Controls
-#### 🎮 Movement
+**🎮 Movement**
 Multi-directional joystick
 ```
         Up
@@ -155,11 +155,11 @@ Left ←-- ○ --→ Right
         Down
 ```
 #### 🔘 Actions
-**●** Main attack  
-**○** Secondary attack  
-**△** Use of power/object  
-**▢** Object/Power recovery  
-**O** Joystick 
+**●** *Main attack*  
+**○** *Secondary attack*  
+**△** *Use of power/object*  
+**▢** *Object/Power recovery*  
+**O** *Joystick* 
 ```
   ● 
 ○   △   O

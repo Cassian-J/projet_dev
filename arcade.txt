@@ -30,19 +30,24 @@ minimal:
   fr   +50% -> - 10 %
   hp   +50% -> - 10 %
 multiplicateur de 50% 
+
 soit 50 point <=> 250% de stats de différences
 soit  1 point <=> 5% de stats de différences
+
 score maximal théorique :
 PV restants% = 100
 Temps maximal = 600
 Temps de survie = 0
 Différence totale des stats = 50
+
 Score=((100+(600-0)×5)×(1+(50/100)))×10 = 46500
+
 score minimal théorique :
 PV restants% = 1
 Temps maximal = 0
 Temps de survie = 0
 Différence totale des stats = -50
+
 Score=((1+(0-0)×5)×(1+(-50/100)))×10 = 5
 
 
@@ -94,32 +99,99 @@ si le joueur 1 gagne:
 
 Différence totale des stats = -8
 
-donc ScoreJoueur1 = ((35+(600-155)×5)×(1+(-8/100)))×10 = 6,992
-donc si le joueur 1 gagne, il a un score de 20792
+donc ScoreJoueur1 = ((35+(600-155)×5)×(1+(-8/100)))×10 = 20,792
+donc si le joueur 1 gagne, il a un score de 20,792
 
 
 si le joueur 2 gagne:
 
 Différence totale des stats = -8
 
-donc ScoreJoueur2 = ((35+(600-155)×5)×(1+(8/100)))×10 = 8,208
-donc si le joueur 2 gagne, il a un score de 24408
+donc ScoreJoueur2 = ((35+(600-155)×5)×(1+(8/100)))×10 = 24,408
+donc si le joueur 2 gagne, il a un score de 24,408
 
 
+table dans la base de donnée:
+
+score
+perso avec leur changements
 table pour enregistrer les joueur et leurs stats modifié
-CREATE TABLE Joueurs (
-  uuid uuid PRIMARY KEY,
+
+
+CREATE TABLE changement (
+  uuid UUID PRIMARY KEY,  /////// id INTEGER PRIMARY KEY,
+  Cuuid UUID FOREIGN KEY,  ////// Cid INTEGER FOREIGN KEY,
   pseudo TEXT,
   rspd INTEGER,
   spd INTEGER,
   hp INTEGER,
   atk INTEGER,
-  fr FLOAT,
+  fr INTEGER,
   pspd INTEGER
 );
 
-base de donné legère vu qu'elle sera en local donc dans le style sqlite. pas besoin d'une place énorme
-table dans la base de donnée:
+CREATE TABLE character (
+  uuid UUID PRIMARY KEY,  /////// id INTEGER PRIMARY KEY,
+  class TEXT,
+  rspd INTEGER,
+  spd INTEGER,
+  hp INTEGER,
+  atk INTEGER,
+  fr FLOAT
+);
 
-score
-perso avec leur changements
+CREATE TABLE score {
+  uuid UUID PRIMARY KEY,  /////// id INTEGER PRIMARY KEY,
+  pseudo TEXT,
+  number INTEGER
+}
+
+ou peut etre que l'on va mettre des id normal a la place vu que c'est un jeu vidéo 
+et que pas grave si les id des perso + changement sont pas sécurisé comme pour une base de donné de site web
+
+base de donné legère vu qu'elle sera en local donc dans le style sqlite. pas besoin d'une place énorme
+
+
+perso:
+
+tank:
+  paladin:
+    capacité:
+      se pose un bouclier qui lui rajoute 10% de ses pv max(non cumulable, mais restorable) (utilisable toutes les 30 secondes)
+  blindé:
+    capacité:
+      charge sur une certaine longueur, si l'ennemie  est toucher sa vitesse est ralenti pendant 3 secondes et inflige de gros dégat (utilisable toutes les 10 secondes)
+spd dps:
+  assassin:
+    capacité:
+      augmente sa vitesse de deplacement de 50% pendant 5 secondes (utilisable toutes les 15 secondes)
+atk dps:
+  mercenaire:
+    capacité:
+      fait une attaque au corps a corps qui fait d'énorme dégat 
+      et pose saignement(degat sur la durée qui dure 5 secondes et font 1% des pv max par secondes ainsi que ralentissement des mouvement de 5% pendant 5 secondes) sur l'adversaire
+  archer:
+    capacité:
+      envoie une fleche qui touche a 100% sont adversaires (utilisable toutes les 25 secondes)
+fr dps:
+  mitrailleur:
+    capacité:
+      change d'arme pendant 10 secondes pour une mitrailette qui tire 2 projectile par secondes (utilisable toutes les 20 secondes)
+  mage:
+    capacité:
+      passe aléatoirement en mode élémentaire ce qui fait soit des dégats sur la durée(1% des pv max par secondes) (feu), soit ralentisse l'adversaire a hauteur de 10% de sa vitesse (glace) ou reduit la defence des adversaires (foudre),
+      dans ce mode la cadence de tire augmente pour tiré 1.6 fois par secondes, les effet disparaisse quand le mage revient a la normal, ce mode dure 8 secondes.
+healer:
+  saint:
+    capacité:
+      applique un soin sur la durée qui le soigne de 1% des pv max toutes les secondes pendants 10 secondes (10 % des pv) (utilisable toutes les 15 secondes)
+  docteur:
+    capacité:
+      se soigne de 10% des pv max (utilisable toutes les 15 secondes)
+debuffer/buffer:
+  maitres des poisons:
+    capacité:
+      lance une bouteille de poison qui si elle touche l'adversaire lui fait des degat sur la durée(1% des pv max toutes les 2 secondes pendant 10 secondes (5% des pv max)) en plus de luis faire des dégat initiaux (utilisable toutes les 15 secondes)
+  gourmet:
+    capacité:
+      mange une nourriture aléatoire qui lui donne un boost en fonction de ce qu'il a mangé (utilisable toutes les 6 secondes)
