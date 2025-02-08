@@ -158,8 +158,8 @@ Left ←-- ○ --→ Right
 **●** Main attack  
 **○** Secondary attack  
 **△** Use of power/object  
-**▢** Object/Power recovery 
-**O** Joystick
+**▢** Object/Power recovery  
+**O** Joystick 
 ```
   ● 
 ○   △   O
