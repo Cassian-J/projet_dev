@@ -9,10 +9,10 @@ tir vers la ou le joueur regarde
 
 
 Calcul du Score
-Score=((PV restants%+(Temps maximal - Temps de survie)×5)×(Handicap))×10
+Score=((PV restants%+(Temps maximal d'optention de points - Temps de survie)×5)×(Handicap))×10
 Handicap = 1+(Différence totale des stats/100)
 Différence totale des stats = atk% + spd% + rspd%+ fr% + hp% + pspd%
-Temps maximal => 5min soit 300 seconds
+Temps maximal => 10min soit 600 seconds
 les changements de stats peuvent aller de -25% a +25% soit un multiplicateur maximal de 150% et minimal de 50%
 
 exemple de différence de stats:
@@ -34,11 +34,16 @@ soit 50 point <=> 250% de stats de différences
 soit  1 point <=> 5% de stats de différences
 score maximal théorique :
 PV restants% = 100
-Temps maximal = 300
+Temps maximal = 600
 Temps de survie = 0
 Différence totale des stats = 50
-Score=((100+(300-0)×5)×(1+(50/100)))×10 = 24,000
-
+Score=((100+(600-0)×5)×(1+(50/100)))×10 = 46500
+score minimal théorique :
+PV restants% = 1
+Temps maximal = 0
+Temps de survie = 0
+Différence totale des stats = -50
+Score=((1+(0-0)×5)×(1+(-50/100)))×10 = 5
 
 
 
@@ -89,16 +94,16 @@ si le joueur 1 gagne:
 
 Différence totale des stats = -8
 
-donc ScoreJoueur1 = ((35+(300-155)×5)×(1+(-8/100)))×10 = 6,992
-donc si le joueur 1 gagne, il a un score de 6992
+donc ScoreJoueur1 = ((35+(600-155)×5)×(1+(-8/100)))×10 = 6,992
+donc si le joueur 1 gagne, il a un score de 20792
 
 
 si le joueur 2 gagne:
 
 Différence totale des stats = -8
 
-donc ScoreJoueur2 = ((35+(300-155)×5)×(1+(8/100)))×10 = 8,208
-donc si le joueur 2 gagne, il a un score de 8208
+donc ScoreJoueur2 = ((35+(600-155)×5)×(1+(8/100)))×10 = 8,208
+donc si le joueur 2 gagne, il a un score de 24408
 
 
 table pour enregistrer les joueur et leurs stats modifié
@@ -112,3 +117,9 @@ CREATE TABLE Joueurs (
   fr FLOAT,
   pspd INTEGER
 );
+
+base de donné legère vu qu'elle sera en local donc dans le style sqlite. pas besoin d'une place énorme
+table dans la base de donnée:
+
+score
+perso avec leur changements
