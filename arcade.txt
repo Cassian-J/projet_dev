@@ -2,14 +2,6 @@
 un symbole de couleur différentes pour différecier les joueurs
 clavier pour prendre les pseudos
 chaque pouvoir a soit une durée soit un nombre d'utilistion
-        haut
-          ^
-          |             O -> atk  O -> atk secondaire
-gauche <- o -> droite 
-          |             O -> utilisation du pouvoir/objet O -> recup de box
-          v
-        bas
-
 tir vers la ou le joueur regarde
 
 
@@ -17,12 +9,99 @@ tir vers la ou le joueur regarde
 
 
 Calcul du Score
-Score=(PV restants+Temps de survie×5)×(Handicap)
+Score=((PV restants%+(Temps maximal - Temps de survie)×5)×(Handicap))×10
 Handicap = 1+(Différence totale des stats/100)
+Différence totale des stats = atk% + spd% + rspd%+ fr% + hp% + pspd%
+Temps maximal => 5min soit 300 seconds
+les changements de stats peuvent aller de -25% a +25% soit un multiplicateur maximal de 150% et minimal de 50%
+
+exemple de différence de stats:
+maximal:
+  atk  -50% -> + 10 %
+  spd  -50% -> + 10 %
+  rspd -50% -> + 10 %
+  fr   -50% -> + 10 %
+  hp   -50% -> + 10 %
+multiplicateur de 150%
+minimal:
+  atk  +50% -> - 10 %
+  spd  +50% -> - 10 %
+  rspd +50% -> - 10 %
+  fr   +50% -> - 10 %
+  hp   +50% -> - 10 %
+multiplicateur de 50% 
+soit 50 point <=> 250% de stats de différences
+soit  1 point <=> 5% de stats de différences
+score maximal théorique :
+PV restants% = 100
+Temps maximal = 300
+Temps de survie = 0
+Différence totale des stats = 50
+Score=((100+(300-0)×5)×(1+(50/100)))×10 = 24,000
+
+
+
+
+exemple:
+
+partie entre 2 joueurs :
+|joueur 1          ||joueur 2                   |
+|------------------||---------------------------|
+| tank |   stats   || fire rate dps |   stats   |
+|------|-----------||---------------|-----------|
+|  hp  |    130    ||  hp           |    100    |
+| atk  |     10    || atk           |      8    |
+| spd  |     80    || spd           |    100    |
+| rspd |    100    || rspd          |    100    |
+|  fr  |    0.6    ||  fr           |    1.4    |
+
+changement des stats de chaque joueur :
+|joueur 1          ||joueur 2                   |
+|------------------||---------------------------|
+| tank |   stats   || fire rate dps |   stats   |
+|------|-----------||---------------|-----------|
+|  hp  |   -25%    ||  hp           |    +0%    |
+| atk  |   +10%    || atk           |    +5%    |
+| spd  |   +10%    || spd           |   -10%    |
+| rspd |    +0%    || rspd          |   -10%    |
+|  fr  |   +20%    ||  fr           |   -10%    |
+|  tot |   +15%    || tot           |   -25%    |
+
+calcul de multiplicateur de différence de stats
+joueur 1:
+-(15-(-25))/5= -8 points
+Différence totale des stats = -8
+joueur 2:
+-(-25-15)/5= 8 points
+Différence totale des stats = 8
+
+la partie dure 155 seconds
+Le gagnant a 35% de c'est pv a la fin de la partie
+
+calcul:
+Score=((PV restants%+(Temps maximal - Temps de survie)×5)×(Handicap))×10
+PV restants% = 35
+Temps maximal = 300
+Temps de survie = 155
+Handicap= 1+(Différence totale des stats/100)
+
+si le joueur 1 gagne:
+
+Différence totale des stats = -8
+
+donc ScoreJoueur1 = ((35+(300-155)×5)×(1+(-8/100)))×10 = 6,992
+donc si le joueur 1 gagne, il a un score de 6992
+
+
+si le joueur 2 gagne:
+
+Différence totale des stats = -8
+
+donc ScoreJoueur2 = ((35+(300-155)×5)×(1+(8/100)))×10 = 8,208
+donc si le joueur 2 gagne, il a un score de 8208
 
 
 table pour enregistrer les joueur et leurs stats modifié
-
 CREATE TABLE Joueurs (
   uuid uuid PRIMARY KEY,
   pseudo TEXT,

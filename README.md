@@ -155,9 +155,13 @@ Left ←-- ○ --→ Right
         Down
 ```
 #### 🔘 Actions
+**●** Main attack  
+**○** Secondary attack  
+**△** Use of power/object  
+**▢** Object/Power recovery 
+**O** Joystick
 ```
-● Main attack  
-○ Secondary attack  
-△ Use of power/object  
-▢ Object/Power recovery 
+  ● 
+○   △   O
+  ▢
 ```
