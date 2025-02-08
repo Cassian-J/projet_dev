@@ -16,3 +16,20 @@ tir vers la ou le joueur regarde
 [↑](#Table-of-Contents)
 
 
+Calcul du Score
+Score=(PV restants+Temps de survie×5)×(Handicap)
+Handicap = 1+(Différence totale des stats/100)
+
+
+table pour enregistrer les joueur et leurs stats modifié
+
+CREATE TABLE Joueurs (
+  uuid uuid PRIMARY KEY,
+  pseudo TEXT,
+  rspd INTEGER,
+  spd INTEGER,
+  hp INTEGER,
+  atk INTEGER,
+  fr FLOAT,
+  pspd INTEGER
+);

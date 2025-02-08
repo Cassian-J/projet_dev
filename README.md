@@ -22,8 +22,9 @@
 - health point (hp)
 - attack (atk)
 - speed (spd)
-- rotated speed (rspd)
+- rotation speed (rspd)
 - fire rate (fr)
+- projectile speed (pspd)
 
 # class
 #### normal stats
@@ -141,22 +142,22 @@
 ## buff
 
 # how to play
-### Commandes du Joystick et des Boutons
-#### 🎮 Mouvement
-Joystick multi-directionnel
+### Joystick and Button Controls
+#### 🎮 Movement
+Multi-directional joystick
 ```
-          Haut
-           ↑  
-           │  
-Gauche ←-- ○ --→ Droite
-           │
-           ↓ 
-          Bas
+        Up
+         ↑  
+         │  
+Left ←-- ○ --→ Right
+         │
+         ↓ 
+        Down
 ```
 #### 🔘 Actions
 ```
-● Attaque principale  
-○ Attaque secondaire  
-△ Utilisation du pouvoir/objet  
-▢ Récupération de box 
+● Main attack  
+○ Secondary attack  
+△ Use of power/object  
+▢ Object/Power recovery 
 ```
