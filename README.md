@@ -296,20 +296,20 @@ Eats a Meat Dish, granting a 25% attack boost for 10 seconds, or a Salad, reduci
 **Energy Infusion** → Enhances all abilities, reducing their cooldowns by ? seconds. (duration of use: ? | number of uses: ?)  
 **Hero’s Crown** → Grants a random buff: Attack +20%, Speed +30%, or Defense +25% for ? seconds. (duration of use: ? | number of uses: ?)  
 
-## weapon 
-### Speed Weapons ⚡  
+# weapon 
+## Speed Weapons ⚡  
 **Wind Dagger** → Increases movement speed by 25% while equipped.(duration of use: ? | number of uses: ?)   
 **Storm Katana** → Dashing grants a brief speed boost and allows instant counterattacks.(duration of use: ? | number of uses: ?)   
 **Phantom Bow** → Shooting an arrow briefly increases movement speed by 30%.(duration of use: ? | number of uses: ?)   
 **Shadow Claws** → Each successful hit grants a stacking 5% speed boost (up to ? times).(duration of use: ? | number of uses: ?)   
 **Sonic Blades** → A pair of ultra-light swords that allow rapid movement and quick slashes.(duration of use: ? | number of uses: ?)   
-### Attack Weapons ⚔️  
+## Attack Weapons ⚔️  
 **Bloodthirster Axe** → Gains a 10% damage boost for every enemy defeated (resets after ? seconds).(duration of use: ? | number of uses: ?)   
 **Doom Reaper** → Critical hits deal 50% bonus damage and apply a Bleed effect (1% HP per second for ? seconds).(duration of use: ? | number of uses: ?)   
 **Executioner’s Halberd** → Deals 20% bonus damage against enemies below 50% HP.(duration of use: ? | number of uses: ?)   
 **Rage Gauntlets** → Boosts attack power by 15% but reduces defense by 10%.(duration of use: ? | number of uses: ?)   
 **War God’s Blade** → Every successful attack increases attack power by 5% (stacks up to ? times).(duration of use: ? | number of uses: ?)   
-### Fire Rate Weapons 🔫  
+## Fire Rate Weapons 🔫  
 **Havoc Pistol** → A semi-automatic pistol with a 30% faster fire rate than standard firearms.(duration of use: ? | number of uses: ?)   
 **Stormbringer Rifle** → Each consecutive hit increases fire rate by 10% (stacks up to ? times).(duration of use: ? | number of uses: ?)   
 **Rapidshot Crossbow** → Fires two bolts at once, doubling attack speed.(duration of use: ? | number of uses: ?)   
