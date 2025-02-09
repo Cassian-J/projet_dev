@@ -161,6 +161,7 @@ Randomly enters Elemental Mode, applying one of three effects:
 - Ice: Slows the enemy by 10%
 - Lightning: Reduces enemy defense
 - In this mode, attack speed increases to 1.6 attacks per second.  
+
 The effects disappear when returning to normal mode. Elemental Mode lasts for ? seconds.
 
 ### Storm
