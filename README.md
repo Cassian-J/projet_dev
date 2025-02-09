@@ -42,6 +42,7 @@
 |  hp   | +++       |
 | spd   | --        |
 |  fr   | --        |
+
 **tank stats**
 | tank |   stats   |
 |------|-----------|
@@ -57,6 +58,7 @@
 |  hp   | --        |
 | atk   | +         |
 | spd   | +++       |
+
 **speed dps stats**
 | speed dps |   stats   |
 |-----------|-----------|
@@ -71,6 +73,7 @@
 |-------|-----------|
 | atk   | ++        |
 |  fr   | -         |
+
 **damage dps stats**
 | damage dps |   stats   |
 |------------|-----------|
@@ -85,6 +88,7 @@
 |-------|------------|
 | atk   | -          |
 |  fr   | ++         |
+
 **fire rate dps stats**
 | fire rate dps |   stats   |
 |---------------|-----------|
@@ -99,6 +103,7 @@
 |-------|--------|
 |  hp   |  +     |
 | spd   |  -     |
+
 **healer stats**
 | healer |   stats   |
 |--------|-----------|
@@ -113,6 +118,7 @@
 |-------|-----------|
 | atk   | -         |
 | spd   | +         |
+
 **debuffer/buffer stats**
 | debuffer/buffer |   stats   |
 |-----------------|-----------|
