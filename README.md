@@ -25,6 +25,7 @@
 - rotation speed (rspd)
 - fire rate (fr)
 - projectile speed (pspd)
+- 
 
 # class
 **normal stats**
@@ -58,7 +59,7 @@ Deploys a shield that grants 10% of his max HP (not stackable but can be restore
 
 ### Armored
 **Ability:**  
-Charges forward a certain distance. If an enemy is hit, their movement speed is slowed for ? seconds and they take heavy damage. (Usable every ? seconds)
+Charges forward a certain distance. If an enemy is hit, it's apply slow and do heavy damage. (Usable every ? seconds)
 
 ### Fortress
 **Ability:**  
@@ -95,7 +96,7 @@ Increases movement speed by 75% for ? seconds but prevents attacking during this
 
 ### Fugitive
 **Ability:**  
-Performs a rapid dodge by teleporting a short distance (5 meters) and gaining a 60% attack speed boost for ? seconds. (Usable every ? seconds)
+Performs a rapid dodge by teleporting a short distance and gaining a 60% attack speed boost for ? seconds. (Usable every ? seconds)
 
 ## damage dps
 **change of stats between damage dps and normal character**
@@ -115,7 +116,7 @@ Performs a rapid dodge by teleporting a short distance (5 meters) and gaining a 
 
 ### Mercenary
 **Ability:**  
-Performs a melee attack dealing massive damage and applies Bleeding (damage over time lasting ? seconds, dealing 1% of max HP per second) and Slow (reduces movement speed by 5% for ? seconds).
+Performs a melee attack dealing massive damage and applies Bleeding and reduce the speed by 15% for ? (Usable every ? seconds).
 
 ### Archer
 **Ability:**  
@@ -131,7 +132,7 @@ Delivers a powerful strike that deals massive damage and increases attack speed 
 
 ### Ranger
 **Ability:**  
-Shoots a flaming arrow that hits the enemy, dealing immediate damage and applying a burn effect for ? seconds (?% of max HP per second). (Usable every ? seconds)
+Shoots a flaming arrow that hits the enemy, dealing immediate damage and applying a burn effect for ? seconds. (Usable every ? seconds)
 
 ## fire rate dps
 **change of stats between fire rate dps and normal character**
@@ -151,18 +152,17 @@ Shoots a flaming arrow that hits the enemy, dealing immediate damage and applyin
 
 ### Gunner
 **Ability:**  
-Switches to a submachine gun for 10 seconds, firing 2 projectiles per second. (Usable every ? seconds)
+Switches to a submachine gun for ? seconds, firing 2.5 projectiles per second. (Usable every ? seconds)
 
 ### Mage
 **Ability:**  
 Randomly enters Elemental Mode, applying one of three effects:
 
-- Fire: Deals damage over time (?% of max HP per second)
+- Fire: Deals damage over time
 - Ice: Slows the enemy by 10%
 - Lightning: Reduces enemy defense
-- In this mode, attack speed increases to 1.6 attacks per second.  
 
-The effects disappear when returning to normal mode. Elemental Mode lasts for ? seconds.
+In this mode, attack speed increases to 1.6 attacks per second. The effects disappear when returning to normal mode. Elemental Mode lasts for ? seconds.
 
 ### Storm
 **Ability:**  
@@ -170,7 +170,7 @@ Unleashes a volley of bullets in a straight line, dealing moderate damage and sl
 
 ### Witch
 **Ability:**  
-Transforms into Shadow Mode, dealing instant damage of 2% max HP every 2 seconds for ? seconds. Additionally, the mage becomes intangible and cannot be targeted by enemy attacks. (Usable every ? seconds)
+Transforms into Shadow Mode, takinging instant damage of 2% max HP every ? seconds for ? seconds. Additionally, the mage becomes intangible and cannot be targeted by enemy attacks. (Usable every ? seconds)
 
 ### Pyromancer (Mage)
 **Ability:**  
@@ -202,7 +202,7 @@ Heals himself for 10% of his max HP. (Usable every ? seconds)
 
 ### Cleric
 **Ability:**  
-Casts a healing aura that restores 3% of max HP per second to everyone (including enemies) for ? seconds. (Usable every ? seconds)
+Casts a healing aura that restores 3% of max HP per second to everyone (including enemies) within a 15-meter radius for ? seconds. (Usable every ? seconds)
 
 ### Survivor
 **Ability:**  
@@ -235,15 +235,15 @@ Throws a syringe that heals him for 25% of his max HP and grants 15% damage resi
 
 ### Poison Master
 **Ability:**  
-Throws a poison bottle that, if it hits the enemy, deals initial damage and applies a Poison Effect (1% of max HP every ? seconds for ? seconds, totaling ?% of max HP). (Usable every ? seconds)
+Throws a poison bottle that, if it hits the enemy, deals initial damage and applies a Poison Effect. (Usable every ? seconds)
 
 ### Wind Master
 **Ability:**  
-Unleashes a poisonous wind gust that slows all enemies in the area by 30% for ? seconds and deals poison damage over time (0.5% of max HP per second for ? seconds). (Usable every ? seconds)
+Unleashes a poisonous wind gust that slows all enemies in the area by 30% for ? seconds and deals poison damage over time. (Usable every ? seconds)
 
 ### Warlock
 **Ability:**  
-Throws a Poison Orb that deals immediate damage to 3 enemies within a 3-meter radius and prevents them from regenerating HP for ? seconds. (Usable every ? seconds)
+Throws a Poison Orb that deals immediate damage to enemies within a 3-meter radius and prevents them from regenerating HP for ? seconds. (Usable every ? seconds)
 
 ## buffer
 
@@ -277,12 +277,44 @@ Eats a Meat Dish, granting a 25% attack boost for 10 seconds, or a Salad, reduci
 |buffer       | 100 |   8 | 110 |  100 |   1 |
 
 # items
-## defense
-## speed
-## attack
-## fire rate
-## heal
-## buff
+## Defense Items 🛡️
+**Titan Shield** → Grants a shield absorbing 15% of max HP. (duration of use: ? | number of uses: ?)  
+**Iron Armor** → Reduces incoming damage by 20% for ? seconds. (duration of use: ? | number of uses: ?)  
+**Fortress Core** → Generates an energy barrier that blocks the next ? attacks. (duration of use: ? | number of uses: ?)  
+**Guardian Stone** → Increases defense by 25% for ? seconds. (duration of use: ? | number of uses: ?)  
+**Aegis Rune** → Reflects 10% of damage taken back to the attacker for ? seconds. (duration of use: ? | number of uses: ?)  
+## Healing Items ❤️
+**Life Orb** → Restores 15% of max HP instantly. (duration of use: ? | number of uses: ?)  
+**Regeneration** Stone → Heals 2% of max HP per second for ? seconds. (duration of use: ? | number of uses: ?)  
+**Blessed Tonic** → Grants a healing-over-time effect, restoring 1% max HP every second for ? seconds. (duration of use: ? | number of uses: ?)  
+**Vital Essence** → Heals 10% of max HP and removes all debuffs. (duration of use: ? | number of uses: ?)  
+**Phoenix Heart** → If HP drops below 10%, instantly restores 30% HP (One-time use per life)  
+## Buff Items ✨
+**Champion’s Medal** → Increases all stats by 10% for ? seconds. (duration of use: ? | number of uses: ?)  
+**Divine Amulet** → Grants immunity to negative effects for ? seconds. (duration of use: ? | number of uses: ?)  
+**Battle Cry Stone** → Increases attack power and movement speed by 15% for ? seconds. (duration of use: ? | number of uses: ?)  
+**Energy Infusion** → Enhances all abilities, reducing their cooldowns by ? seconds. (duration of use: ? | number of uses: ?)  
+**Hero’s Crown** → Grants a random buff: Attack +20%, Speed +30%, or Defense +25% for ? seconds. (duration of use: ? | number of uses: ?)  
+
+## weapon 
+### Speed Weapons ⚡  
+**Wind Dagger** → Increases movement speed by 25% while equipped.(duration of use: ? | number of uses: ?)   
+**Storm Katana** → Dashing grants a brief speed boost and allows instant counterattacks.(duration of use: ? | number of uses: ?)   
+**Phantom Bow** → Shooting an arrow briefly increases movement speed by 30%.(duration of use: ? | number of uses: ?)   
+**Shadow Claws** → Each successful hit grants a stacking 5% speed boost (up to ? times).(duration of use: ? | number of uses: ?)   
+**Sonic Blades** → A pair of ultra-light swords that allow rapid movement and quick slashes.(duration of use: ? | number of uses: ?)   
+### Attack Weapons ⚔️  
+**Bloodthirster Axe** → Gains a 10% damage boost for every enemy defeated (resets after ? seconds).(duration of use: ? | number of uses: ?)   
+**Doom Reaper** → Critical hits deal 50% bonus damage and apply a Bleed effect (1% HP per second for ? seconds).(duration of use: ? | number of uses: ?)   
+**Executioner’s Halberd** → Deals 20% bonus damage against enemies below 50% HP.(duration of use: ? | number of uses: ?)   
+**Rage Gauntlets** → Boosts attack power by 15% but reduces defense by 10%.(duration of use: ? | number of uses: ?)   
+**War God’s Blade** → Every successful attack increases attack power by 5% (stacks up to ? times).(duration of use: ? | number of uses: ?)   
+### Fire Rate Weapons 🔫  
+**Havoc Pistol** → A semi-automatic pistol with a 30% faster fire rate than standard firearms.(duration of use: ? | number of uses: ?)   
+**Stormbringer Rifle** → Each consecutive hit increases fire rate by 10% (stacks up to ? times).(duration of use: ? | number of uses: ?)   
+**Rapidshot Crossbow** → Fires two bolts at once, doubling attack speed.(duration of use: ? | number of uses: ?)   
+**Inferno SMG** → Shoots continuously with no recoil but overheats if fired too long.(duration of use: ? | number of uses: ?)   
+**Machina Gatling** → Fires 4 projectiles per second but slows movement speed while shooting.(duration of use: ? | number of uses: ?)   
 
 # how to play
 ### Joystick and Button Controls

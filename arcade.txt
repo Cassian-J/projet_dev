@@ -150,3 +150,42 @@ ou peut etre que l'on va mettre des id normal a la place vu que c'est un jeu vid
 et que pas grave si les id des perso + changement sont pas sécurisé comme pour une base de donné de site web
 
 base de donné legère vu qu'elle sera en local donc dans le style sqlite. pas besoin d'une place énorme
+
+
+
+
+### Defense Weapons 🛡️
+**Bulwark Shield** → A massive shield that blocks 30% of incoming damage and can reflect projectiles.(duration of use: ? | number of uses: ?)   
+**Guardian Mace** → Heavy weapon that reduces damage taken by 15% while held.(duration of use: ? | number of uses: ?)   
+**Fortress Blade** → A sword that grants a temporary shield absorbing 10% of max HP after every successful block.(duration of use: ? | number of uses: ?)   
+**Aegis Spear** → When thrown, creates a defensive barrier that reduces incoming damage by 20% for 5 seconds.(duration of use: ? | number of uses: ?)   
+**Titan Hammer** → Slamming the ground creates a shockwave that knocks enemies back and grants temporary armor.(duration of use: ? | number of uses: ?)  
+## Speed Items ⚡
+**Wind Boots** → Increases movement speed by 30% for ? seconds. (duration of use: ? | number of uses: ?)  
+**Phantom Cloak** → Grants a brief burst of transparency and a 50% speed boost for ? seconds. (duration of use: ? | number of uses: ?)  
+**Sonic Talisman** → Boosts movement speed by 70%, but disables attacking for ? seconds. (duration of use: ? | number of uses: ?)  
+**Blink Pendant** → Allows instant teleportation up to 5 meters away. (duration of use: ? | number of uses: ?)  
+**Storm Gauntlets** → Increases movement speed and attack speed by 20% for ? seconds. (duration of use: ? | number of uses: ?)  
+## Attack Items ⚔️
+**Doomblade** → Increases attack power by 30% for ? seconds. (duration of use: ? | number of uses: ?)  
+**Executioner’s Charm** → Attacks apply Bleeding. (duration of use: ? | number of uses: ?)  
+**Rage Pendant** → Increases attack power by 20% but reduces defense by 10% for ? seconds. (duration of use: ? | number of uses: ?)  
+**Warrior’s Seal** → Heavy attacks deal bonus damage equal to 5% of the enemy’s missing HP. (duration of use: ? | number of uses: ?)  
+## Fire Rate Items 🔫
+**Rapidfire Gloves** → Increases attack speed by 50% for ? seconds. (duration of use: ? | number of uses: ?)  
+**Machina Core** → Doubles attack speed but reduces accuracy by 10% for ? seconds. (duration of use: ? | number of uses: ?)  
+**Havoc Trigger** → Each hit increases fire rate by 5% for ? seconds (stacks up to ? times). (duration of use: ? | number of uses: ?)  
+**Stormfang Relic** → Allows shooting two projectiles per attack for ? seconds. (duration of use: ? | number of uses: ?)  
+**Turbo Modulator** → Boosts ranged fire rate by 40% but increases reload time by 15% for ? seconds. (duration of use: ? | number of uses: ?)  
+### Healing Weapons ❤️   
+**Lifebinder Staff** → Successful attacks restore 2% of max HP (Cooldown: ? seconds).(duration of use: ? | number of uses: ?)   
+**Blessed Hammer** → Healing aura activates when attacking, restoring 1% HP per second to allies nearby.(duration of use: ? | number of uses: ?)   
+**Vitality Sword** → Killing an enemy heals the wielder for 5% of their max HP.(duration of use: ? | number of uses: ?)   
+**Seraph’s Bow** → Arrows restore HP equal to 10% of the damage dealt.(duration of use: ? | number of uses: ?)   
+**Phoenix Gauntlet** → When HP drops below 20%, the next attack heals for 30% HP (once per life).(duration of use: ? | number of uses: ?)   
+### Buff Weapons ✨  
+**Champion’s Lance** → Grants a +10% attack and defense boost for 5 seconds after a successful hit.(duration of use: ? | number of uses: ?)   
+**Divine Staff** → Casts an aura that increases all allies' movement speed by 15% for ? seconds.(duration of use: ? | number of uses: ?)   
+**Battle Cry Sword** → Striking an enemy increases the wielder’s attack and movement speed by 10% for ? seconds.(duration of use: ? | number of uses: ?)   
+**Energy Infused Gauntlet** → Increases the wielder’s fire rate and attack power by 20% while attacking.(duration of use: ? | number of uses: ?)   
+**Hero’s Greatsword** → Randomly grants a buff on each hit: Attack +20%, Speed +30%, or Defense +25% for ? seconds.(duration of use: ? | number of uses: ?)   
