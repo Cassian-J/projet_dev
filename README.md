@@ -257,6 +257,7 @@ Prepares a potion that randomly grants one of the following effects:
 - Heals 10% of max HP
 - Increases movement speed by 30% for ? seconds
 - Reduces damage taken by 15% for ? seconds  
+
 (Usable every ? seconds)
 
 ### Chef
