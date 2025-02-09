@@ -278,13 +278,13 @@ Eats a Meat Dish, granting a 25% attack boost for 10 seconds, or a Salad, reduci
 |buffer       | 100 |   8 | 110 |  100 |   1 |
 
 # items
-## Defense Items 🛡️
+## Defense Items 🛡️ 
 **Titan Shield** → Grants a shield absorbing 15% of max HP. (duration of use: ? | number of uses: ?)  
 **Iron Armor** → Reduces incoming damage by 20% for ? seconds. (duration of use: ? | number of uses: ?)  
 **Fortress Core** → Generates an energy barrier that blocks the next ? attacks. (duration of use: ? | number of uses: ?)  
 **Guardian Stone** → Increases defense by 25% for ? seconds. (duration of use: ? | number of uses: ?)  
 **Aegis Rune** → Reflects 10% of damage taken back to the attacker for ? seconds. (duration of use: ? | number of uses: ?)  
-## Healing Items ❤️
+## Healing Items ❤️ 
 **Life Orb** → Restores 15% of max HP instantly. (duration of use: ? | number of uses: ?)  
 **Regeneration** Stone → Heals 2% of max HP per second for ? seconds. (duration of use: ? | number of uses: ?)  
 **Blessed Tonic** → Grants a healing-over-time effect, restoring 1% max HP every second for ? seconds. (duration of use: ? | number of uses: ?)  
